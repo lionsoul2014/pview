@@ -259,13 +259,13 @@ public class PView extends JFrame {
 						, JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
-		JMenuItem company = new JMenuItem("畅想网络");
+		JMenuItem company = new JMenuItem("本软件");
 		company.setUI(new IJMenuItemUI());
 		company.addActionListener(new ActionListener(){
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				JOptionPane.showMessageDialog(null, PViewCfg.PIC_COMPANY_INFO,
-						"畅想网络：", JOptionPane.INFORMATION_MESSAGE);
+						"PView：", JOptionPane.INFORMATION_MESSAGE);
 			}
 		});
 		
